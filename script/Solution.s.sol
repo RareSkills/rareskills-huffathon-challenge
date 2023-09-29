@@ -10,8 +10,9 @@ contract Register is Script, Utils {
     function setUp() public {}
 
     // PLAYER to run this command to register their solution:
-    // forge script script/Solution.s.sol:Register --rpc-url <OPTIMISM RPC URL> --broadcast -vvvv
+    // forge script script/Solution.s.sol:Register --rpc-url <OPTIMISM RPC URL> --broadcast -vvvv ----priority-gas-price 0.000001gwei
     // This needs to be a live transaction on Optimism and you will need to replace <OPTIMISM RPC URL> with a valid url.
+    // NOTE: We recently added --priority-gas-price 0.000001gwei to the suggested command. Without it, your gas prices may be higher.
     // You will also need to use an actual wallet which you can do using the --wallet flag or enter your pk in other ways
     // such as by using the --interactive flag.
     function run() public {
