@@ -15,7 +15,6 @@ The algorithm you chose will have as much impact as your Huff skills.
 Lowest gas takes the prize, but the winner will be decided on a hidden test case to discourage gaming the tests.
 
 Some pointers:
-- the Laplace expansion algorithm we provided runs in O(n!) time, it's probably not ideal
 - don't change the calldata signature -- assume we need to support large integers
 - we will involve large matrices in the test, you should optimize for that
 - the determinant of a matrix of integers is always an integer
@@ -66,5 +65,8 @@ Also note:
 ## Wrapping Up
 
 That's all there is to it! Once the challenge concludes, feel free to make your repository public. If your solution ranks among the top contenders, it will undergo a human review. Stay updated by keeping an eye on our Discord channel and Twitter feed.
+
+## Credits
+Credit to [devtooligan](https://github.com/devtooligan/) for porting this CTF to the contest format.
 
 Best of luck, and may the best coder win!
